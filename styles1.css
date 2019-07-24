@@ -1,0 +1,157 @@
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    padding: 15px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.chirpus{
+    
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+.chirpus a {
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #69696a;
+}
+.hire a{
+    background-color: black;
+    color: #f9fafc;
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+body {
+    background-color: #f9fafc;
+    font-family: sans-serif ; 
+}
+h1 {
+    font-family: sans-serif;
+    /* font-weight: normal, 800; */
+}
+p {
+    color: #69696a;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+footer {
+    position: absolute;
+    background-color: black;
+    color: #f9fafc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    margin: 140px 574px;
+    margin-top: -60px;
+    font-family: sans-serif;
+}
+
+  .circles {
+    border-radius: 50%;
+    margin-top: -165px;
+    margin-right: 90px; 
+  } 
+  /* -----------------------------------------------------------
+  how to apply border radius to class="circles"????????
+  how to apply correct font
+
+  ----------------------------------------------------------- */
+  .pink {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background: rgba(247, 136, 167, 0.6);
+    border: 1px  rgba(247, 136, 167, 0.6);
+    margin: 0%;
+    padding: 0%;
+  }
+  .orange {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: rgba(247, 193, 162, 0.7);
+    border: 1px  rgba(247, 193, 162, 0.7);
+    margin: 10% -6%;
+    padding: 0%;
+  }
+  .purple {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: rgba(207, 130, 213, 0.6);
+    border: 1px  rgba(207, 130, 213, 0.6);
+    margin: 45px -45px;
+    padding: 10px 10px;
+  }
+.text {
+    margin-left: 40px;
+    margin-top: 100px;
+    font-weight: normal, 800;
+}
+.circles {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.line {
+    position: absolute;
+    width: 3px;
+    height: 90px;
+    background: #69696a;
+    margin-top: 58px;
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    ul{
+        flex-direction: column; 
+    }
+    .hire a{
+        /* width: 426px;
+        display: inline-block;
+        margin: -15px; */
+
+        width: 426px;
+        display: flex;
+        margin: -16px;
+        justify-content: center;
+    }
+    .circles {
+        display: none;
+    }
+    footer {
+    /* margin-left: 39px;
+    position: relative; 
+    margin: 40px; 
+    margin-top: 0px; 
+    font-family: sans-serif; */
+
+    margin-left: 39px; 
+    /* position: relative; */
+    margin: 40px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    width: 465px;
+    border-radius: 15px;
+    padding: 10px;
+}
+ 
+        }
+    .text{
+        margin-top: 35px;
+    }
+ 
+}
